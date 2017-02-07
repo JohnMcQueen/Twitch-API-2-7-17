@@ -1,0 +1,49 @@
+body{
+  background-image:url("img/Background.png");
+  color:white;
+  font-family: 'Merriweather';
+  background-size:auto;
+}
+
+#header{
+  background:rgba(0,0,0,.5);
+  border: 5px white solid;
+  border-radius:25px;
+}
+#loader{
+top:50%;
+  left:50%;
+  z-index:1000;
+
+position: absolute;
+}
+img{
+  width:100px;
+  border-radius:50%;
+}
+.col-md-4{
+  padding:5px;
+}
+.row{
+  background: rgba(0,0,0,.50);
+  border: 5px white solid;
+  border-radius:25px;
+  margin:10px;
+  padding:8px;
+}
+
+h2{
+  text-align:left;
+  color:#6441A4;
+  font-weight: bold;
+  font-size: 60px;
+
+}
+
+h2:hover{
+  color:white;
+}
+
+a:hover{
+  color:White;
+}
